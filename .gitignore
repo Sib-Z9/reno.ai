@@ -1,0 +1,24 @@
+# Business documents live in ../Documentation (OneDrive only), never in git
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+~$*
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
